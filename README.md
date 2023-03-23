@@ -9,7 +9,7 @@ This is an automation test framework for the Hudl login portal using Cypress.
 
 ### How to run tests
 To run the cypress tests there are two ways that this can be done.
-- By installing the required dependencies such as **Node.Js** and **npm**
+- By installing the required dependencies such as **Node.Js** and **npm** and **Cypress**
 - Or just downloading Cypress directly from *here* (https://docs.cypress.io/guides/getting-started/installing-cypress)
 
 ---
@@ -20,6 +20,12 @@ To run the cypress tests there are two ways that this can be done.
 1. First things first, ensure you have Visual Studio Code or a compatible IDE installed on your machine. 
 
 2. Next, be sure to install node.js which acts as the runtime environment for Javascript code which Cypress uses. (https://nodejs.org/en/download)
+
+3. Install Cypress through npm using the commands
+<img width="748" alt="image" src="https://user-images.githubusercontent.com/38458929/227278634-646c3327-970d-4526-b4f5-64ebd72a3ed5.png">
+
+**Make sure that you have already run npm init or have a node_modules folder or package.json file in the root of your project to ensure cypress is installed in the correct directory.**
+
 
 ---
 
